@@ -5,11 +5,11 @@ function Menu() {
   const menu = useLoaderData();
   console.log(menu);
   return (
-    <u>
+    <ul className="divide-y divide-gray-200 px-2 ">
       {menu.map((pizza) => (
         <MenuItem key={pizza.id} pizza={pizza} />
       ))}
-    </u>
+    </ul>
   );
 }
 export async function loader() {

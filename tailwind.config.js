@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        screen: "100dvh", // 100% of the viewport height, accounting for mobile browser UI
+      },
+    },
   },
   plugins: [],
 };
