@@ -7,6 +7,7 @@ function Button({ children, disabled, to, type, onClick }) {
     primary: `${base} py-3 px-4 md:px-6 md:py-4 `,
     small: `${base} px-4 py-2 md:px-5 md:py-2.5 text-xs`,
     secondary: `${base} text-sm bg-stone-200 hover:bg-stone-300 py-3 px-4 md:px-6 md:py-4`,
+    round: `${base} px-2.5 py-1 md:px-3.5 md:py-2 text-sm`,
   };
 
   if (to)
